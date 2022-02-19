@@ -114,39 +114,3 @@
   font-style: normal;
   font-display: swap;
 }
-
-body {
-  font-family: 'Roboto';
-}
-
-h1 {
-  color: red;
-  font-family: 'Julius Sans One', 'sans-serif';
-  font-size: 35px;
-}
-
-ol a {
-  font-weight: 700;
-}
-
-ul li {
-  font-family: 'Julius Sans One', 'sans-serif';
-  line-height: 25px;
-}
-
-h3 {
-  color: green;
-  font-weight: bold;
-  font-size: 28px;
-}
-
-h2 {
-  font-family: 'Julius Sans One', 'sans-serif';
-  font-size: 32px;
-  color: purple;
-  text-decoration: underline;
-}
-
-p {
-  line-height: 23px;
-}
