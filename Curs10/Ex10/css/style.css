@@ -1,0 +1,29 @@
+body {
+  color: green;
+}
+
+body a {
+  color: green;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.para-short {
+  height: 321px;
+  width: 321px;
+  margin: 10px auto;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.para-short p {
+  text-align: center;
+  width: 321px;
+  border: 1px solid red;
+}
