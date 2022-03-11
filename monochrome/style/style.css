@@ -69,6 +69,14 @@ a {
   gap: 2.5rem;
 }
 
+.header-controls form {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
 .header-controls .search {
   margin-right: 30px;
 }
@@ -76,6 +84,11 @@ a {
 .header-controls .search {
   color: #000;
   margin-right: 30px;
+  display: block;
+  position: absolute;
+  left: 3%;
+  background: #fff;
+  border: none;
 }
 
 .header-controls form {
@@ -90,7 +103,7 @@ a {
 
 .header-top .header-controls input {
   padding: 6px 2px;
-  border: 1px solid #ccc;
+  border: none;
 }
 
 .header-top .header-controls input::placeholder {
