@@ -18,6 +18,35 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link
     rel="stylesheet"
     href="./style/style.css"
@@ -27,7 +56,7 @@
 
 <body>
   <header class="header">
-    <section class="header-top">
+    <section class="header-top container">
       <section class="header-contact">
         <ul>
           <li>
@@ -85,13 +114,13 @@
       <!-- ./header-contact -->
 
       <section class="header-controls">
-        <form action="">
-          <button
+        <form>
+          <a
             title="Search"
             class="search"
           >
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
+            <i class="icon fa-solid fa-magnifying-glass"></i>
+          </a>
           <input
             type="text"
             name=""
@@ -125,7 +154,7 @@
     <!-- ./header-top -->
 
     <section class="header-bottom">
-      <nav class="nav-main">
+      <nav class="nav-main container">
         <ul>
           <li>
             <a
@@ -956,157 +985,159 @@
   <!-- ./content -->
 
   <footer class="footer">
-    <section class="footer-contact">
-      <ul>
-        <li>
-          <a
-            href="tel:++44 (0)10 2345 6789"
-            title="Call us"
-          >call us +44 (0)10 2345 6789</a>
-        </li>
+    <section class="footer-section container">
+      <section class="footer-contact ">
+        <ul>
+          <li>
+            <a
+              href="tel:++44 (0)10 2345 6789"
+              title="Call us"
+            >call us <br>+44 (0)10 2345 6789</a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="email customer care"
-          >email customer care</a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="email customer care"
+            >email customer care</a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="see mobile version"
-          >see mobile version</a>
-        </li>
-      </ul>
+          <li>
+            <a
+              href=""
+              title="see mobile version"
+            >see mobile version</a>
+          </li>
+        </ul>
+      </section>
+      <!-- ./footer-contact -->
+
+      <nav class="footer-nav ">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="style fit  advice"
+            >style & fit advice</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="faqs"
+            >faqs</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="delivery"
+            >delivery</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="exchanges returns"
+            >exchanges & returns</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a
+              href=""
+              title="about us"
+            >about us</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="careers"
+            >careers</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="affiliates"
+            >affiliates</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="advertising"
+            >advertising</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ./footer-nav -->
+
+      <section class="footer-connect ">
+        <form action="">
+          <legend>sign up for your newsletter</legend>
+          <input
+            type="text"
+            name="newsletter"
+            id="newsletter"
+          >
+          <button
+            type="submit"
+            title="submit"
+            class="submit"
+          >Submit</button>
+        </form>
+
+        <ul class="footer-social-media">
+          <li>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Follow us on Youtube"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Follow us on Twitter"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Follow us on Facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Follow us on Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- ./footer-connect -->
     </section>
-    <!-- ./footer-contact -->
-
-    <nav class="footer-nav">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="style fit  advice"
-          >style & fit advice</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="faqs"
-          >faqs</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="delivery"
-          >delivery</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="exchanges returns"
-          >exchanges & returns</a>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <a
-            href=""
-            title="about us"
-          >about us</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="careers"
-          >careers</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="affiliates"
-          >affiliates</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="advertising"
-          >advertising</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- ./footer-nav -->
-
-    <section class="footer-connect">
-      <form action="">
-        <legend>sign up for your newsletter</legend>
-        <input
-          type="text"
-          name="newsletter"
-          id="newsletter"
-        >
-        <button
-          type="submit"
-          title="submit"
-          class="submit"
-        >Submit</button>
-      </form>
-
-      <ul class="footer-social-media">
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Follow us on Youtube"
-          >
-            <i class="fa-brands fa-youtube"></i>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Follow us on Twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Follow us on Facebook"
-          >
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Follow us on Instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <!-- ./footer-connect -->
   </footer>
   <!-- ./footer -->
 </body>
